@@ -1,0 +1,129 @@
+
+-----| testing_failure |-----------------------
+# This one must fail.. just to
+# test if the  unit test system is working
+Traceback (most recent call last):
+  File "w1.py", line 15, in k
+    f()
+  File "w1.py", line 27, in testing_failure
+    assert 1 == 2
+AssertionError
+
+
+-----| testing_success |-----------------------
+# If this one fails, we have a problem!
+# pass
+
+-----| testing_page_5 |-----------------------
+# Testing Whitespace Formatting
+# pass
+
+-----| testing_page_6 |-----------------------
+# Testing Modules
+# pass
+
+-----| testing_page_7 |-----------------------
+# Testing Arithmetic
+# pass
+
+-----| testing_page_8 |-----------------------
+# Testing Functions
+# pass
+
+-----| testing_page_9 |-----------------------
+# Testing Strings
+# pass
+
+-----| testing_page_10 |-----------------------
+# Testing Exceptions
+# pass
+
+-----| testing_page_11 |-----------------------
+# Testing Lists
+# pass
+
+-----| testing_page_12 |-----------------------
+# Testing Unpacking of Lists
+# pass
+
+-----| testing_page_13 |-----------------------
+# Testing Tuples
+# pass
+
+-----| testing_page_14 |-----------------------
+# Testing Dictionaries
+# pass
+
+-----| testing_page_15 |-----------------------
+# Testing Default Dictionary
+# pass
+
+-----| testing_page_16 |-----------------------
+# Testing Counter
+# pass
+
+-----| testing_page_17 |-----------------------
+# Testing Sets
+# pass
+
+-----| testing_page_18 |-----------------------
+# Testing Control Flow
+# pass
+
+-----| testing_page_19 |-----------------------
+# Testing Truthiness
+# pass
+
+-----| testing_page_20 |-----------------------
+# Testing Truthiness - all and any
+# pass
+
+-----| testing_page_22 |-----------------------
+# Testing Sorting
+# pass
+
+-----| testing_page_23 |-----------------------
+# Testing List Comprehensions
+# pass
+
+-----| testing_page_24 |-----------------------
+# Testing Generators and Iterators
+# pass
+
+-----| testing_page_25 |-----------------------
+# Testing Randomness
+# pass
+
+-----| testing_page_26 |-----------------------
+# Testing Regular Expressions
+# pass
+
+-----| testing_page_27 |-----------------------
+# Testing Object Oriented Programming
+# pass
+
+-----| testing_page_28 |-----------------------
+# Testing Functional Tools - Partials
+# pass
+
+-----| test_page_29 |-----------------------
+# Testing Functional Tools - Reduce
+# pass
+
+-----| test_page_30 |-----------------------
+# Testing Enumerate
+# pass
+
+-----| test_page_31 |-----------------------
+# Testing Zip and Argument Unpacking
+# pass
+
+-----| test_page_32 |-----------------------
+# Testing args
+# pass
+
+-----| test_page_33 |-----------------------
+# Testing kwargs
+# pass
+
+# pass= 29 fail= 1 %pass = 97%
