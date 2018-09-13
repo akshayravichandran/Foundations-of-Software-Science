@@ -14,9 +14,9 @@ class Num:
     self.sample = Sample(max)
     self.w = 1
   
-  def bulkAdd(self, values):
+  def bulkAdd(self, values, func = lambda x: x):
     for x in values:
-      self.numInc(x)
+      self.numInc(func(x))
   
   def numInc(self, value):
     if value == '?':

@@ -1,0 +1,8 @@
+
+-----| testSample |-----------------------
+# Testing Entropy Sampler
+Items =  ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'n', 'n', 'n', 'n', 'n']
+Entropy =  0.9403
+# pass
+
+# pass= 1 fail= 0 %pass = 100%
