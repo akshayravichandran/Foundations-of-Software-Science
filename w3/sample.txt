@@ -1,0 +1,40 @@
+
+-----| testSampleSize32 |-----------------------
+# Testing Reservoir Sampler with maximum size 32.
+50th percentile =  0.618808207491781
+Traceback (most recent call last):
+  File "C:\Users\aksha\Desktop\Fall 2018\CSC 591\assignments\w3\O.py", line 15, in k
+    f()
+  File "sample_test.py", line 22, in testSampleSize32
+    testSample(1, 32)
+  File "sample_test.py", line 17, in testSample
+    assert 0.4 < s.nth(0.5) < 0.6, "Out of range"
+AssertionError: Out of range
+
+
+-----| testSampleSize64 |-----------------------
+# Testing Reservoir Sampler with maximum size 64.
+50th percentile =  0.4337373844951833
+# pass
+
+-----| testSampleSize128 |-----------------------
+# Testing Reservoir Sampler with maximum size 128.
+50th percentile =  0.46928481158670154
+# pass
+
+-----| testSampleSize256 |-----------------------
+# Testing Reservoir Sampler with maximum size 256.
+50th percentile =  0.4819181189055901
+# pass
+
+-----| testSampleSize512 |-----------------------
+# Testing Reservoir Sampler with maximum size 512.
+50th percentile =  0.5082547138963299
+# pass
+
+-----| testSampleSize1024 |-----------------------
+# Testing Reservoir Sampler with maximum size 1024.
+50th percentile =  0.4851969112117802
+# pass
+
+# pass= 5 fail= 1 %pass = 83%
