@@ -13,6 +13,7 @@ class Num:
     self.hi = -10**32
     self.sample = Sample(max)
     self.w = 1
+    self.n = 0
   
   def bulkAdd(self, values, func = lambda x: x):
     for x in values:
@@ -21,24 +22,25 @@ class Num:
   def numInc(self, value):
     if value == '?':
       return
+    self.n += 1
     self.sample.add(value)
     d = value - self.mu
-    self.mu += d / self.sample.n
+    self.mu += d / self.n
     self.m2 += d*(value - self.mu)
     self.hi = value if value > self.hi else self.hi
     self.lo = value if value < self.lo else self.lo
-    if self.sample.n >= 2:
-      self.sd = (self.m2/(self.sample.n - 1 + 10**-32))**0.5 
+    if self.n >= 2:
+      self.sd = (self.m2/(self.n - 1 + 10**-32))**0.5 
   
   def numDec(self, value):
-    if value == '?' or self.sample.n == 1:
+    if value == '?' or self.n == 1:
       return
-    self.sample.n -= 1
+    self.n -= 1
     d = value - self.mu
-    self.mu -= d / self.sample.n
+    self.mu -= d / self.n
     self.m2 -= d*(value - self.mu)
-    if self.sample.n >= 2:
-      self.sd = (self.m2/(self.sample.n - 1 + 10**-32))**0.5
+    if self.n >= 2:
+      self.sd = (self.m2/(self.n - 1 + 10**-32))**0.5
 
   def numNorm(self, value):
     return x == '?' and 0.5 or (x-self.lo) / (self.hi - self.lo + 10**-32)
