@@ -1,6 +1,6 @@
 import random
 import math
-from sample import Sample
+from w3.sample import Sample
 
 default_max = 512
 
