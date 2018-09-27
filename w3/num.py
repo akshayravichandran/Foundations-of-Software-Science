@@ -42,7 +42,7 @@ class Num:
     if self.n >= 2:
       self.sd = (self.m2/(self.n - 1 + 10**-32))**0.5
 
-  def numNorm(self, value):
+  def numNorm(self, x):
     return x == '?' and 0.5 or (x-self.lo) / (self.hi - self.lo + 10**-32)
   
   @staticmethod
