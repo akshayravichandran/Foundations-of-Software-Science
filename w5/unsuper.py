@@ -10,7 +10,6 @@ class Unsuper:
     """
     self.rows = data.rows.values()
     self.enough = len(self.rows) ** 0.5  # magic constant
-    print('Enough', self.enough)
   
   def band(self, c, lo, hi):
     if lo == 0:
