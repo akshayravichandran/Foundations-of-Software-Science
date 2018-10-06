@@ -25,7 +25,7 @@ class Data:
     c : int
       The column to be checked
     """
-    return not self.w[c] and self.class_col != c
+    return not c in self.w and self.class_col != c
   
   def dep(self, c):
     """

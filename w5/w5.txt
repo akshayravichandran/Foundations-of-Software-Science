@@ -1,45 +1,37 @@
+Enough 5.291502622129181
 
-weatherLong.csv
-%outlook  $temp  <humid  wind  !play  dom
-over  64.0  65.0  TRUE  yes  0.95  
-rainy  65.0  70.0  TRUE  no  0.88  
-over  64.0  65.0  TRUE  yes  0.87  
-rainy  65.0  70.0  TRUE  no  0.78  
-sunny  69.0  70.0  FALSE  yes  0.74  
-sunny  75.0  70.0  TRUE  yes  0.73  
-over  81.0  75.0  FALSE  yes  0.72  
-sunny  69.0  70.0  FALSE  yes  0.71  
-sunny  75.0  70.0  TRUE  yes  0.71  
-over  81.0  75.0  FALSE  yes  0.67  
-rainy  75.0  80.0  FALSE  yes  0.59  
-rainy  68.0  80.0  FALSE  yes  0.58  
-rainy  75.0  80.0  FALSE  yes  0.50  
-rainy  68.0  80.0  FALSE  yes  0.46  
-sunny  85.0  85.0  FALSE  no  0.46  
-over  83.0  86.0  FALSE  yes  0.37  
-sunny  85.0  85.0  FALSE  no  0.37  
-over  83.0  86.0  FALSE  yes  0.27  
-over  72.0  90.0  TRUE  yes  0.20  
-sunny  80.0  90.0  TRUE  no  0.20  
-rainy  71.0  91.0  TRUE  no  0.19  
-sunny  80.0  90.0  TRUE  no  0.18  
-over  72.0  90.0  TRUE  yes  0.16  
-rainy  71.0  91.0  TRUE  no  0.16  
-sunny  72.0  95.0  FALSE  no  0.11  
-sunny  72.0  95.0  FALSE  no  0.10  
-rainy  70.0  96.0  FALSE  yes  0.00  
-rainy  70.0  96.0  FALSE  yes  0.00  
-
-auto.csv
-%cylinders  $displacement  $horsepower  <weight  >acceltn  $model  origin  >mpg  dom
-4  91.0  68.0  2025.0  18.2  82.0  3  40.0  1.00  
-4  90.0  48.0  2335.0  23.7  80.0  2  40.0  1.00  
-4  97.0  52.0  2130.0  24.6  82.0  2  40.0  1.00  
-4  72.0  69.0  1613.0  18.0  71.0  3  40.0  0.99  
-4  81.0  60.0  1760.0  16.1  81.0  3  40.0  0.99  
-.......
-8  383.0  180.0  4955.0  11.5  71.0  1  10.0  0.00  
-8  455.0  225.0  4951.0  11.0  73.0  1  10.0  0.00  
-8  400.0  167.0  4906.0  12.5  73.0  1  10.0  0.00  
-8  400.0  170.0  4746.0  12.0  71.0  1  10.0  0.00  
-8  400.0  175.0  5140.0  12.0  71.0  1  10.0  0.00  
+--  $temp 27 ----------
+|.. 64.0..85.0
+|.. |..64.0..75.0
+|.. |..|..64.0..70.0 (..70.0) 
+|.. |..|..71.0..75.0 (71.0..75.0) 
+|.. |..80.0..85.0 (80.0..) 
+%outlook	temp	<humid	wind	!play	
+over	..70.0    	65.0	TRUE	yes	
+over	..70.0    	65.0	TRUE	yes	
+rainy	..70.0    	70.0	TRUE	no	
+rainy	..70.0    	70.0	TRUE	no	
+rainy	..70.0    	80.0	FALSE	yes	
+rainy	..70.0    	80.0	FALSE	yes	
+sunny	..70.0    	70.0	FALSE	yes	
+sunny	..70.0    	70.0	FALSE	yes	
+rainy	..70.0    	96.0	FALSE	yes	
+rainy	..70.0    	96.0	FALSE	yes	
+rainy	71.0..75.0	91.0	TRUE	no	
+rainy	71.0..75.0	91.0	TRUE	no	
+over	71.0..75.0	90.0	TRUE	yes	
+over	71.0..75.0	90.0	TRUE	yes	
+sunny	71.0..75.0	95.0	FALSE	no	
+sunny	71.0..75.0	95.0	FALSE	no	
+sunny	71.0..75.0	70.0	TRUE	yes	
+sunny	71.0..75.0	70.0	TRUE	yes	
+rainy	71.0..75.0	80.0	FALSE	yes	
+rainy	71.0..75.0	80.0	FALSE	yes	
+sunny	80.0..    	90.0	TRUE	no	
+sunny	80.0..    	90.0	TRUE	no	
+over	80.0..    	75.0	FALSE	yes	
+over	80.0..    	75.0	FALSE	yes	
+over	80.0..    	86.0	FALSE	yes	
+over	80.0..    	86.0	FALSE	yes	
+sunny	80.0..    	85.0	FALSE	no	
+sunny	80.0..    	85.0	FALSE	no	
