@@ -38,7 +38,8 @@ class Num:
     self.n -= 1
     d = value - self.mu
     self.mu -= d / self.n
-    self.m2 -= d*(value - self.mu)
+    if self.m2 - d*(value - self.mu) > 0:
+      self.m2 -= d*(value - self.mu)
     if self.n >= 2:
       self.sd = (self.m2/(self.n - 1 + 10**-32))**0.5
 
